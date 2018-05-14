@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays cart page 1`] = `
+<div>
+  <CartPage>
+    <div
+      className="product"
+      key="1"
+    >
+      <img
+        className="image"
+        onClick={[Function]}
+        src="http://via.placeholder.com/100?text=P1"
+      />
+      <div
+        className="shortDescription"
+        onClick={[Function]}
+      >
+        Short description 1
+      </div>
+      <div
+        className="quantity"
+      >
+        Quantity: 
+        1
+      </div>
+    </div>
+    <div
+      className="product"
+      key="2"
+    >
+      <img
+        className="image"
+        onClick={[Function]}
+        src="http://via.placeholder.com/100?text=P2"
+      />
+      <div
+        className="shortDescription"
+        onClick={[Function]}
+      >
+        Short description 2
+      </div>
+      <div
+        className="quantity"
+      >
+        Quantity: 
+        2
+      </div>
+    </div>
+    <div
+      className="total"
+    >
+      Total price: 
+      300
+    </div>
+    <button
+      className="checkoutButton"
+      onClick={[Function]}
+    >
+      Checkout
+    </button>
+  </CartPage>
+</div>
+`;

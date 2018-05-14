@@ -1,0 +1,451 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays product page 1`] = `
+<div>
+  <ProductPage
+    location="/products/1"
+  >
+    <Carousel
+      afterSlide={[Function]}
+      autoplay={false}
+      autoplayInterval={3000}
+      beforeSlide={[Function]}
+      cellAlign="left"
+      cellSpacing={0}
+      className="carousel"
+      dragging={true}
+      easing="easeCircleOut"
+      edgeEasing="easeElasticOut"
+      frameOverflow="hidden"
+      framePadding="0px"
+      heightMode="first"
+      onResize={[Function]}
+      renderBottomCenterControls={[Function]}
+      renderCenterLeftControls={[Function]}
+      renderCenterRightControls={[Function]}
+      slideIndex={0}
+      slideWidth={1}
+      slidesToScroll={1}
+      slidesToShow={1}
+      speed={500}
+      style={Object {}}
+      swiping={true}
+      vertical={false}
+      width="100%"
+      wrapAround={true}
+    >
+      <div
+        className="slider carousel"
+        style={
+          Object {
+            "MozBoxSizing": "border-box",
+            "boxSizing": "border-box",
+            "display": "block",
+            "height": "auto",
+            "position": "relative",
+            "visibility": "hidden",
+            "width": "100%",
+          }
+        }
+      >
+        <Animate
+          show={true}
+          start={
+            Object {
+              "tx": 0,
+              "ty": 0,
+            }
+          }
+          update={
+            Object {
+              "timing": Object {
+                "duration": 500,
+                "ease": [Function],
+              },
+              "tx": Array [
+                -0,
+              ],
+              "ty": Array [
+                0,
+              ],
+            }
+          }
+        >
+          <div
+            className="slider-frame"
+            onClick={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseOut={[Function]}
+            onMouseOver={[Function]}
+            onMouseUp={[Function]}
+            onTouchCancel={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            style={
+              Object {
+                "MozBoxSizing": "border-box",
+                "WebkitTransform": "translate3d(0, 0, 0)",
+                "boxSizing": "border-box",
+                "display": "block",
+                "height": "auto",
+                "margin": "0px",
+                "msTransform": "translate(0, 0)",
+                "overflow": "hidden",
+                "padding": 0,
+                "position": "relative",
+                "touchAction": "pinch-zoom pan-y",
+                "transform": "translate3d(0, 0, 0)",
+              }
+            }
+          >
+            <ul
+              className="slider-list"
+              style={
+                Object {
+                  "MozBoxSizing": "border-box",
+                  "WebkitTransform": "translate3d(0px, 0px, 0)",
+                  "boxSizing": "border-box",
+                  "cursor": "inherit",
+                  "display": "block",
+                  "height": 0,
+                  "margin": "0px 0px",
+                  "msTransform": "translate(0px, 0px)",
+                  "padding": 0,
+                  "position": "relative",
+                  "transform": "translate3d(0px, 0px, 0)",
+                  "width": 0,
+                }
+              }
+            >
+              <li
+                className="slider-slide"
+                key="0/.0"
+                style={
+                  Object {
+                    "MozBoxSizing": "border-box",
+                    "boxSizing": "border-box",
+                    "display": "inline-block",
+                    "height": "auto",
+                    "left": 0,
+                    "listStyleType": "none",
+                    "marginBottom": "auto",
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "marginTop": "auto",
+                    "minHeight": "100%",
+                    "position": "absolute",
+                    "top": 0,
+                    "verticalAlign": "top",
+                    "width": 0,
+                  }
+                }
+              >
+                <img
+                  className="image"
+                  src="http://via.placeholder.com/600?text=Product image 1"
+                />
+              </li>
+              <li
+                className="slider-slide"
+                key="1/.1"
+                style={
+                  Object {
+                    "MozBoxSizing": "border-box",
+                    "boxSizing": "border-box",
+                    "display": "inline-block",
+                    "height": "auto",
+                    "left": 0,
+                    "listStyleType": "none",
+                    "marginBottom": "auto",
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "marginTop": "auto",
+                    "minHeight": "100%",
+                    "position": "absolute",
+                    "top": 0,
+                    "verticalAlign": "top",
+                    "width": 0,
+                  }
+                }
+              >
+                <img
+                  className="image"
+                  src="http://via.placeholder.com/600?text=Product image 2"
+                />
+              </li>
+              <li
+                className="slider-slide"
+                key="2/.2"
+                style={
+                  Object {
+                    "MozBoxSizing": "border-box",
+                    "boxSizing": "border-box",
+                    "display": "inline-block",
+                    "height": "auto",
+                    "left": 0,
+                    "listStyleType": "none",
+                    "marginBottom": "auto",
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "marginTop": "auto",
+                    "minHeight": "100%",
+                    "position": "absolute",
+                    "top": 0,
+                    "verticalAlign": "top",
+                    "width": 0,
+                  }
+                }
+              >
+                <img
+                  className="image"
+                  src="http://via.placeholder.com/600?text=Product image 3"
+                />
+              </li>
+            </ul>
+          </div>
+        </Animate>
+        <div
+          className="slider-control-centerleft"
+          key="CenterLeft"
+          style={
+            Object {
+              "WebkitTransform": "translateY(-50%)",
+              "left": 0,
+              "msTransform": "translateY(-50%)",
+              "position": "absolute",
+              "top": "50%",
+              "transform": "translateY(-50%)",
+            }
+          }
+        >
+          <PreviousButton
+            cellSpacing={0}
+            currentSlide={0}
+            frameWidth={0}
+            goToSlide={[Function]}
+            nextSlide={[Function]}
+            previousSlide={[Function]}
+            slideCount={3}
+            slideWidth={0}
+            slidesToScroll={1}
+            slidesToShow={1}
+            wrapAround={true}
+          >
+            <button
+              disabled={false}
+              onClick={[Function]}
+              style={
+                Object {
+                  "background": "rgba(0,0,0,0.4)",
+                  "border": 0,
+                  "color": "white",
+                  "cursor": "pointer",
+                  "opacity": 1,
+                  "outline": 0,
+                  "padding": 10,
+                }
+              }
+            >
+              PREV
+            </button>
+          </PreviousButton>
+        </div>
+        <div
+          className="slider-control-centerright"
+          key="CenterRight"
+          style={
+            Object {
+              "WebkitTransform": "translateY(-50%)",
+              "msTransform": "translateY(-50%)",
+              "position": "absolute",
+              "right": 0,
+              "top": "50%",
+              "transform": "translateY(-50%)",
+            }
+          }
+        >
+          <NextButton
+            cellSpacing={0}
+            currentSlide={0}
+            frameWidth={0}
+            goToSlide={[Function]}
+            nextSlide={[Function]}
+            previousSlide={[Function]}
+            slideCount={3}
+            slideWidth={0}
+            slidesToScroll={1}
+            slidesToShow={1}
+            wrapAround={true}
+          >
+            <button
+              disabled={false}
+              onClick={[Function]}
+              style={
+                Object {
+                  "background": "rgba(0,0,0,0.4)",
+                  "border": 0,
+                  "color": "white",
+                  "cursor": "pointer",
+                  "opacity": 1,
+                  "outline": 0,
+                  "padding": 10,
+                }
+              }
+            >
+              NEXT
+            </button>
+          </NextButton>
+        </div>
+        <div
+          className="slider-control-bottomcenter"
+          key="BottomCenter"
+          style={
+            Object {
+              "WebkitTransform": "translateX(-50%)",
+              "bottom": 0,
+              "left": "50%",
+              "msTransform": "translateX(-50%)",
+              "position": "absolute",
+              "transform": "translateX(-50%)",
+            }
+          }
+        >
+          <PagingDots
+            cellSpacing={0}
+            currentSlide={0}
+            frameWidth={0}
+            goToSlide={[Function]}
+            nextSlide={[Function]}
+            previousSlide={[Function]}
+            slideCount={3}
+            slideWidth={0}
+            slidesToScroll={1}
+            slidesToShow={1}
+            wrapAround={true}
+          >
+            <ul
+              style={
+                Object {
+                  "margin": 0,
+                  "padding": 0,
+                  "position": "relative",
+                  "top": -10,
+                }
+              }
+            >
+              <li
+                key="0"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "listStyleType": "none",
+                  }
+                }
+              >
+                <button
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": "transparent",
+                      "border": 0,
+                      "color": "black",
+                      "cursor": "pointer",
+                      "fontSize": 24,
+                      "opacity": 1,
+                      "outline": 0,
+                      "padding": 10,
+                    }
+                  }
+                >
+                  •
+                </button>
+              </li>
+              <li
+                key="1"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "listStyleType": "none",
+                  }
+                }
+              >
+                <button
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": "transparent",
+                      "border": 0,
+                      "color": "black",
+                      "cursor": "pointer",
+                      "fontSize": 24,
+                      "opacity": 0.5,
+                      "outline": 0,
+                      "padding": 10,
+                    }
+                  }
+                >
+                  •
+                </button>
+              </li>
+              <li
+                key="2"
+                style={
+                  Object {
+                    "display": "inline-block",
+                    "listStyleType": "none",
+                  }
+                }
+              >
+                <button
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "background": "transparent",
+                      "border": 0,
+                      "color": "black",
+                      "cursor": "pointer",
+                      "fontSize": 24,
+                      "opacity": 0.5,
+                      "outline": 0,
+                      "padding": 10,
+                    }
+                  }
+                >
+                  •
+                </button>
+              </li>
+            </ul>
+          </PagingDots>
+        </div>
+        <style
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": ".slider-slide > img {width: 100%; display: block;}",
+            }
+          }
+          type="text/css"
+        />
+      </div>
+    </Carousel>
+    <div
+      className="longDescription"
+    >
+      Long description
+    </div>
+    <div
+      className="price"
+    >
+      Price: 
+      100
+    </div>
+    <Component
+      productId="1"
+    >
+      Add to cart form
+    </Component>
+  </ProductPage>
+</div>
+`;

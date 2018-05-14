@@ -1,0 +1,29 @@
+.product {
+	overflow: hidden;
+}
+
+.product + .product {
+	border-top: solid 1px #f2f2f2;
+}
+
+.image {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.shortDescription {
+	font-size: 16px;
+	line-height: 16px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.price {
+	font-size: 16px;
+	line-height: 16px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}

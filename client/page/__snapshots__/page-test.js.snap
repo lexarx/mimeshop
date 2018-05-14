@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays cart page 1`] = `
+Array [
+  <div
+    class="header"
+  >
+    <span
+      class="headerLink"
+    >
+      Products
+    </span>
+    <span
+      class="headerLink currentHeaderLink"
+    >
+      Cart
+    </span>
+  </div>,
+  "CartPage",
+]
+`;
+
+exports[`displays product page 1`] = `
+Array [
+  <div
+    class="header"
+  >
+    <span
+      class="headerLink"
+    >
+      Products
+    </span>
+    <span
+      class="headerLink"
+    >
+      Cart
+    </span>
+  </div>,
+  "ProductPage",
+]
+`;
+
+exports[`displays products list 1`] = `
+Array [
+  <div
+    class="header"
+  >
+    <span
+      class="headerLink currentHeaderLink"
+    >
+      Products
+    </span>
+    <span
+      class="headerLink"
+    >
+      Cart
+    </span>
+  </div>,
+  "ProductList",
+]
+`;
+
+exports[`displays products list 2`] = `
+Array [
+  <div
+    class="header"
+  >
+    <span
+      class="headerLink currentHeaderLink"
+    >
+      Products
+    </span>
+    <span
+      class="headerLink"
+    >
+      Cart
+    </span>
+  </div>,
+  "ProductList",
+]
+`;

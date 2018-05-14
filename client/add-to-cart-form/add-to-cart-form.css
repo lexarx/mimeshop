@@ -1,0 +1,15 @@
+.quantity {
+	font-size: 13px;
+	height: 20px;
+	width: 100px;
+	box-sizing: border-box;
+	vertical-align: top;
+	margin-right: 5px;
+}
+
+.addButton {
+	font-size: 13px;
+	height: 20px;
+	box-sizing: border-box;
+	vertical-align: top;
+}
